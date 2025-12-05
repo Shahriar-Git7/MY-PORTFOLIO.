@@ -12,10 +12,10 @@
 }
 
 :root {
-  --bg--color: #f8fafc;
-  --snd--bg--color: #e2e8f0;
-  --text--color: #0f172a;
-  --main--color: #3b82f6;
+  --bg--color: #61d3d8;
+  --snd--bg--color: #173b5a;
+  --text--color: #0f1b2a;
+  --main--color: #1a73e8;
 }
 
 html {
@@ -54,7 +54,7 @@ section {
 }
 
 .navbar a {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: var(--text--color);
   margin-left: 4rem;
   font-weight: 700;
@@ -62,7 +62,7 @@ section {
 
 .navbar a:hover,
 .navbar a.active {
-  color: #add8e6;
+  color: #1a73e8;
 }
 
 #menu-icon {
@@ -97,8 +97,9 @@ span {
 }
 
 .home-img img {
-  width: 25vw;
+  width: 15vw;
   animation: floatImage 4s ease-in-out infinite;
+  border-radius: 15px;
 }
 
 @keyframes floatImage {
@@ -141,11 +142,11 @@ span {
 .btn {
   display: inline-block;
   padding: 1rem 2.8rem;
-  background: var(--main--color);
+  background: #1a73e8;
   border-radius: 4rem;
   box-shadow: 0 0 1rem var(--main--color);
   font-size: 1.6rem;
-  color: var(--bg--color);
+  color: #ffffff;
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.5s ease;
@@ -172,16 +173,28 @@ span {
   font-size: 4.5rem;
 }
 
+.span {
+  color: #4da6ff;
+}
+
 .about-content h2 {
   text-align: left;
   line-height: 1.2;
+  color: #e6eeff;
 }
 
 .about-content h3 {
   font-size: 2.6rem;
+  color: #ffffff;
 }
 
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  color: #e6eeff;
+}
+
+.btn {
+  background: #1a73e8;
+  color: #ffffff;
 }
