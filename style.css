@@ -18,6 +18,8 @@
   --main--color: #1a73e8;
 }
 
+/* ---------------------- BASIC HTML & BODY ---------------------- */
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -32,6 +34,8 @@ section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
 }
+
+/* ---------------------- HEADER / NAVBAR ---------------------- */
 
 .header {
   position: fixed;
@@ -71,6 +75,7 @@ section {
   display: none;
 }
 
+/* ---------------------- HOME SECTION ---------------------- */
 .home {
   display: flex;
   justify-content: center;
@@ -118,6 +123,7 @@ span {
   font-size: 1.6rem;
 }
 
+/* ---------------------- SOCIAL MEDIA ICONS ---------------------- */
 .social-media a {
   display: inline-flex;
   justify-content: center;
@@ -139,6 +145,7 @@ span {
   box-shadow: 0 0 1rem var(--main--color);
 }
 
+/* ---------------------- BUTTON STYLE ---------------------- */
 .btn {
   display: inline-block;
   padding: 1rem 2.8rem;
@@ -156,6 +163,7 @@ span {
   box-shadow: none;
 }
 
+/* ---------------------- ABOUT SECTION ---------------------- */
 .about {
   display: flex;
   justify-content: center;
@@ -164,37 +172,31 @@ span {
   background: var(--snd--bg--color);
 }
 
-.about-img img {
-  width: 35vw;
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1 {
+  flex-basis: 35%;
 }
 
-.heading {
-  text-align: center;
-  font-size: 4.5rem;
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
 }
 
-.span {
-  color: #4da6ff;
+.about-col-2 {
+  flex-basis: 60%;
 }
 
-.about-content h2 {
-  text-align: left;
-  line-height: 1.2;
-  color: #e6eeff;
-}
-
-.about-content h3 {
-  font-size: 2.6rem;
+#normal {
   color: #ffffff;
+  font-size: 1.4rem;
 }
 
-.about-content p {
-  font-size: 1.6rem;
-  margin: 2rem 0 3rem;
+.sub-title {
+  font-size: 60px;
+  font-weight: 600;
   color: #e6eeff;
-}
-
-.btn {
-  background: #1a73e8;
-  color: #ffffff;
 }
